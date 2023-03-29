@@ -1,0 +1,7 @@
+﻿  cin scanf getline.cpp
+C:\Users\user\Desktop\심심풀이\cin scanf getline\cin scanf getline\cin scanf getline.cpp(12,18): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+C:\Users\user\Desktop\심심풀이\cin scanf getline\cin scanf getline\cin scanf getline.cpp(13,5): error C2144: 구문 오류: char'은(는) ';' 다음에 와야 합니다.
+C:\Users\user\Desktop\심심풀이\cin scanf getline\cin scanf getline\cin scanf getline.cpp(13,18): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+C:\Users\user\Desktop\심심풀이\cin scanf getline\cin scanf getline\cin scanf getline.cpp(14,5): error C2144: 구문 오류: char'은(는) ';' 다음에 와야 합니다.
+C:\Users\user\Desktop\심심풀이\cin scanf getline\cin scanf getline\cin scanf getline.cpp(14,18): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+C:\Users\user\Desktop\심심풀이\cin scanf getline\cin scanf getline\cin scanf getline.cpp(30,5): error C2143: 구문 오류: ';'이(가) 'while' 앞에 없습니다.
