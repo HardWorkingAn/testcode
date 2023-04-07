@@ -1,4 +1,7 @@
 ﻿#include <iostream>
+#pragma warning(disable:4996)
+
+
 
 using namespace std;
 
@@ -46,4 +49,59 @@ int main()
         cout << i << ' ';
     }
     cout << endl;
+
+
+    // 버퍼 오버플로우 테스트
+    /*
+    char name[10];
+    scanf_s("%s", name, 9);
+    printf("%s\n", name);
+    scanf_s("%s", name, 9);
+    printf("%s\n", name);
+    scanf_s("%s", name, 9);
+    printf("%s\n", name);
+    */
+
+    char name[10];
+    scanf("%9s%*[^\n]", name);
+    getchar(); // 개행 문자 처리
+    printf("%s\n", name);
+    scanf("%9s%*[^\n]", name);
+    getchar(); // 개행 문자 처리
+    printf("%s\n", name);
 }
+
+/*
+
+#include <iostream>
+using namespace std;
+#include <stdio.h>
+
+
+struct Books {
+    // 책 이름
+    char name[10];
+    // 저자 이름
+    char auth[10];
+    // 출판사 이름
+    char publ[10];
+}b1;
+
+int main()
+{
+
+    printf("책 이름 : ");
+    scanf_s("%s", b1.name, 10);
+
+    printf("저자 이름 : ");
+    scanf_s("%s", b1.auth, 10);
+
+    printf("출판사 이름 : ");
+    scanf_s("%s", b1.publ, 10);
+
+    printf("책 이름 : %s\n저자 이름 : %s\n출판사 이름 : %s\n", b1.name, b1.auth, b1.publ);
+    return 0;
+}
+
+
+*/
