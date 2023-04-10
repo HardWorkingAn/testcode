@@ -1,0 +1,14 @@
+﻿  programers_codetest.cpp
+  공원산책.cpp
+  달리기.cpp
+C:\Users\user\Desktop\심심풀이\programers_codetest\programers_codetest\달리기.cpp(26,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\심심풀이\programers_codetest\programers_codetest\달리기.cpp(11,9): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+C:\Users\user\Desktop\심심풀이\programers_codetest\programers_codetest\달리기.cpp(10,13): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  로그인검사.cpp
+  추억점수.cpp
+C:\Users\user\Desktop\심심풀이\programers_codetest\programers_codetest\추억점수.cpp(13,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\심심풀이\programers_codetest\programers_codetest\추억점수.cpp(17,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\심심풀이\programers_codetest\programers_codetest\추억점수.cpp(20,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+공원산책.obj : error LNK2005: "class std::vector<int,class std::allocator<int> > __cdecl solution(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >)" (?solution@@YA?AV?$vector@HV?$allocator@H@std@@@std@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@0@Z)이(가) programers_codetest.obj에 이미 정의되어 있습니다.
+C:\Users\user\Desktop\심심풀이\programers_codetest\Debug\programers_codetest.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
