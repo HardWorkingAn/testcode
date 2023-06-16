@@ -1,0 +1,3 @@
+﻿  TextCopy_Text02.cpp
+C:\Users\user\Desktop\심심풀이\TextCopy_Text02\TextCopy_Text02\TextCopy_Text02.cpp(79,16): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'long'입니다.
+  TextCopy_Text02.vcxproj -> C:\Users\user\Desktop\심심풀이\TextCopy_Text02\Debug\TextCopy_Text02.exe
